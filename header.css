@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgba(29, 170, 212);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    margin-top: 5px;
+}
+nav ul li {
+    font-size: 20px;
+    cursor: pointer;
+}
+#buscador {
+    border-radius: 5px;
+    text-align: left;
+    height: 30px;
+    width: 300px;
+    margin-left: 700px;
+    font-weight: bold;
+    padding: 10px;
+}
+#buscador:hover{
+    font-size: 19px;
+}
+.cestaboton {
+    height: 25px;
+    width: 90px;
+    margin-right: 50px;
+    background: radial-gradient(white,80%, rgba(8, 184, 238, 0.877));
+    border: none;
+    border-radius: 5px;
+}
+.fotologo {
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+}
+.cesta {
+    color: white;
+    text-decoration: none;
+}
+.primero {
+    text-decoration: none;
+    color: white;
+}
+.segundo {
+    text-decoration: none;
+    color: white;
+}
+.tercero{
+    text-decoration: none;
+    color: white;
+}
+/* A partir de aquí es el apartado de la cesta */
+.cart-panel {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+    z-index: 9999;
+}
+.cart-panel.show {
+    right: 0;
+}
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+#close-cart {
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #333;
+}
+#prodcutos {
+    color: black;
+}
+/* Mensaje del carrito vacio */
+#empty-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+#empty-cart p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+#empty-cart img {
+    width: 150px;  
+    margin-top: 10px;
+    opacity: 0.7; 
+    max-width: 60%;
+    height: auto;
+}
+#cart-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 999 !important;
+}
+/* Aquí empieza el footer*/
+footer {
+    background-color: rgb(29, 170, 212);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    bottom: 0;
+    width: 100%;
+    z-index: 850;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ #quienessomos {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    background: radial-gradient(white, 20%, #21c9e0);
+}
+#quienessomos2 {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+#quienessomos2:hover {
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.2 ease;
+}
+ .footer-section:hover {
+    font-size: 18px;
+ }
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+ }
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer-section p {
+    font-size: 16px;
+    margin: 5px 0;
+} 
+

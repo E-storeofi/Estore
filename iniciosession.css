@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.iniciosession {
+    background: white;
+    padding: 40px; 
+    border-radius: 15px; 
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    margin-top: 10%;
+}
+.iniciosession h2 {
+    margin-bottom: 25px; 
+    font-size: 28px; 
+    color: #1DAAD4;
+}
+.iniciosession input {
+    width: 100%;
+    padding: 15px; 
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.iniciosession button {
+    background: #1DAAD4;
+    color: white;
+    border: none;
+    padding: 15px; 
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s ease;
+    font-weight: bold; 
+}
+.iniciosession button:hover{
+    transform: scale(1.1);
+}
+.iniciosession button:hover {
+    background: #1589a5;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#recuperarcontraseña {
+    font-size: 12px;
+    margin-top: 6px;
+}
+#enlace {
+    color: #0b35f1;
+    text-decoration: underline;
+}

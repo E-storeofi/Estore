@@ -1,0 +1,110 @@
+#catalogo{
+    margin-top: 110px;
+    margin-left: 35%;
+    background-color: #1DAAD4;
+    height: 100px;
+    width: 500px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    transition: 0.5s ease;
+    font-size: 24px;
+    
+}
+#catalogo:hover{
+   
+    background-color: rgba(107, 208, 239, 0.877);
+    transform: scale(1.1);
+}
+#opciones{
+  
+    border-radius: 15px;
+    font-size: 23px;
+    margin-left: 610px;
+    margin-top: 160px;
+    text-align: center;
+    background-color: #1DAAD4;
+    height: 120px;
+    width: 600px;
+    margin-bottom: 85px;
+    transition: 0.5s ease;
+
+}
+#opciones:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+ }
+
+#perifericos{
+    transition: 0.5s ease;
+    border-radius: 15px;
+    font-size: 23px;
+    margin-left: 610px;
+    
+    text-align: center;
+    background-color: #1DAAD4;
+    height: 120px;
+    width: 600px;
+    margin-bottom: 85px;
+}
+#perifericos:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+ 
+ }
+#reacondicionados{
+    transition: 0.5s ease;
+    border-radius: 15px;
+    font-size: 23px;
+    margin-left: 610px;
+    
+    text-align: center;
+    background-color:#1DAAD4 ;
+    height: 120px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+#reacondicionados:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+ }
+.none{
+    text-decoration: none;
+    color: black;
+}
+#imagencomp{
+    margin-left: 720px;
+    height: 180px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: -110px;
+}
+#imagencomp:hover{
+  transform: scale(1.1);
+  border: 1px solid black;
+  background-color: #1DAAD4;
+}
+#imagenper{
+    margin-left: 720px;
+    height: 180px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: -110px;
+    
+}
+#imagenper:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+  }
+  #imagenrea{
+    margin-left: 720px;
+    height: 180px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: -110px;
+    
+}
+#imagenrea:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+  }

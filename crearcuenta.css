@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; 
+    margin: 0;
+    padding: 0;
+}
+.opcionesregistro {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#titulocrearcuenta {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e88e5; 
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1e88e5; 
+}
+.info[type="text"], .info[type="email"], .info[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #90caf9; 
+    border-radius: 4px;
+}
+.terminos2[type="checkbox"] {
+    margin-right: 10px;
+}
+.botones1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #1DAAD4; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.botones1:hover {
+    background-color: #06d0eb; 
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+#link {
+    color: #1e88e5; 
+}
+#link:hover {
+    text-decoration: underline;
+}
+#botonregistrofinal {
+    text-decoration: none;
+}
